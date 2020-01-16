@@ -1,0 +1,5 @@
+alias pi="ssh pi@136.36.111.27"
+alias calc="pushd ~/calc; source calc/bin/activate; python -i calc.py; deactivate; popd"
+alias :q="exit"
+alias :wq="exit"
+alias gitinit="git add .; git commit -m \"initial commit\"; git push"
